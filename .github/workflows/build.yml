@@ -1,8 +1,7 @@
 name: CI/CD for Static Website
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-docker:
