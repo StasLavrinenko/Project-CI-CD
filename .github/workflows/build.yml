@@ -1,4 +1,4 @@
-name: CI/CD for Static Website
+name: Build docker images
 
 on:
   workflow_dispatch:
